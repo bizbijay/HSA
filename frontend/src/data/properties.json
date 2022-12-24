@@ -1,0 +1,44 @@
+[{
+    "Id":1,
+    "SellRent":1,
+    "Name": "Bijay's House",
+    "Type":"House",
+    "Price":12000,
+    "Image":"prop-1"
+  },
+  {
+    "Id":2,
+    "SellRent":2,
+    "Name": "Ram's House",
+    "Type":"House",
+    "Price":100,
+    "Image":"prop-2"
+  },{
+    "Id":3,
+    "SellRent":1,
+    "Name": "Shyam's House",
+    "Type":"House",
+    "Price":200,
+    "Image":"prop-3"
+
+  },{
+    "Id":4,
+    "SellRent":1,
+    "Name": "Hari's House",
+    "Type":"House",
+    "Price":300,
+    "Image":"prop-4"
+  },{
+    "Id":5,
+    "SellRent":1,
+    "Name": "Gopal's House",
+    "Type":"House",
+    "Price":400,
+    "Image":"prop-5"
+  },{
+    "Id":6,
+    "SellRent":1,
+    "Name": "Krishna's House",
+    "Type":"House",
+    "Price":411
+  }]
