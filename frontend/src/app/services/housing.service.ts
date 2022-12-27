@@ -22,14 +22,9 @@ export class HousingService {
       map(data => {
         const propertiesArray: Array<IProperty> = [];
         for (const id in data) {
-          // if (data.hasOwnProperty(id) && data[id].SellRent === SellRent) {
+           if (data.hasOwnProperty(id) && data[id].SellRent === SellRent) {
           propertiesArray.push(data[id]);
-
-           
-          const savedFiltersAsArray = data.filter((item:any) => item.key === 'filter');
-
-          // let arr = data
-          // }f
+         }
         }
         return propertiesArray;
       })
