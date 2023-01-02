@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { User } from 'src/app/model/user';
 import { UserServiceService } from 'src/app/services/user-service.service';
+import  *  as alertyfy from 'alertifyjs';
 
 @Component({
   selector: 'app-user-register',
@@ -68,6 +69,8 @@ export class UserRegisterComponent implements OnInit {
       this.userService.addUser(this.userData());
       this.registrationForm.reset();
       this.userSubmitted=false;
+      alertyfy.success('User Submitted Successfully');
+      
     }
     else
     {
@@ -84,5 +87,4 @@ export class UserRegisterComponent implements OnInit {
       }
     }
   
-
 }
