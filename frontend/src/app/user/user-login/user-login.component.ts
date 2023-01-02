@@ -1,4 +1,7 @@
+import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { NgModel } from '@angular/forms';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-user-login',
@@ -12,4 +15,7 @@ export class UserLoginComponent implements OnInit {
   ngOnInit() {
   }
 
+  onLogin(loginForm: NgForm){
+    console.log(loginForm.value);
+  }
 }
